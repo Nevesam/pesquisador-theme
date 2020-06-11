@@ -1,0 +1,186 @@
+#main-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-content #perfil {
+  background: #FFF7DB;
+  padding: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#main-content #perfil .foto {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-content #perfil .foto h1 {
+  color: #707070;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+#main-content #perfil .foto h3 {
+  color: #707070;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+
+#main-content #perfil .sumario {
+  background: #363636;
+  padding: 10px;
+  height: 380px;
+}
+
+#main-content #perfil .sumario .items-list {
+  list-style: none;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#main-content #perfil .sumario .items {
+  padding: 15px 10px;
+}
+
+#main-content #resumo {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 55px;
+}
+
+#main-content #resumo .resumo-texto {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-content #resumo .resumo-texto h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #1F1E1E;
+}
+
+#main-content #resumo .resumo-texto p {
+  font-family: 'PT Sans', sans-serif;
+  color: #1F1E1E;
+  font-size: 30px;
+}
+
+#main-content #resumo .resumo-texto h3 {
+  color: #0461BE;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-content #resumo .resumo-texto .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#main-content #resumo .resumo-texto .arrows img {
+  color: #0461BE;
+}
+
+#main-content #resumo .contato {
+  width: 100%;
+  padding: 20px;
+}
+
+#main-content #resumo .contato .title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #1F1E1E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-content #resumo .contato .contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+
+#main-content #resumo .contato .contact-form input[type=text], #main-content #resumo .contato .contact-form textarea {
+  width: 100%;
+  margin: 20px;
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #00155A;
+  border: 1px solid #00155A;
+  border-radius: 5px;
+}
+
+#main-content #resumo .contato .contact-form input[type=submit] {
+  width: 392px;
+  height: 92px;
+  margin: 20px;
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #003988;
+  text-transform: uppercase;
+}
+
+#main-content #resumo .contato .contact-form input[type=submit] :hover {
+  background: #00155A;
+}
+/*# sourceMappingURL=estilo.css.map */

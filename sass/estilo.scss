@@ -1,0 +1,158 @@
+$primaryTitle: #1F1E1E;
+$secondaryTitle: #707070;
+$resumoBg: #FFF7DB;
+$sumaryBg: #363636; 
+$item: #0461BE;
+$form: #003988;
+$formName: #00155A;
+$white: #fff;
+
+#main-content {
+
+    align-items: center;
+    justify-content: center;
+
+    #perfil {
+        background: $resumoBg;
+        padding: 55px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .foto {
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            h1 {
+                color: $secondaryTitle;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 38px;
+            }
+            h3 {
+                color: $secondaryTitle;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 28px;
+
+            }
+        }
+
+        .sumario {
+            background: $sumaryBg;
+            padding: 10px;
+            height: 380px;
+
+            .items-list {
+                list-style: none;
+                color: $white;
+                font-size: 30px;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .items {
+                padding: 15px 10px;
+            }
+        }     
+    }
+
+    #resumo {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 55px; 
+
+        .resumo-texto { 
+
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 38px;
+                text-transform: uppercase;
+                color: $primaryTitle;
+            }
+
+            p {
+                font-family: 'PT Sans', sans-serif;
+                color: $primaryTitle;
+                font-size: 30px;
+            }
+
+            h3 {
+                color: $item;
+                font-family: 'PT Sans', sans-serif;
+                font-size: 30px;
+                align-items: center;
+
+            }
+
+            .arrows {
+                display: flex;
+                flex-direction: row;
+            
+            img {
+                color: $item;
+            }
+        }
+
+        }
+
+        .contato {
+            
+            width: 100%;
+            padding: 20px;
+
+            .title {
+                font-family: 'Poppins', sans-serif;
+                font-size: 38px;
+                text-transform: uppercase;
+                color: $primaryTitle;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px;
+
+                input[type=text], textarea {
+                    width: 100%;
+                    margin: 20px;
+                    padding: 20px 40px;
+                    font-family: 'Poppins', sans-serif;
+                    color: $formName;
+                    border: 1px solid $formName;
+                    border-radius: 5px;
+                }
+
+                input[type=submit] {
+                    width: 392px;
+                    height: 92px;
+                    margin: 20px;
+                    padding: 20px 40px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 30px;
+                    border-radius: 5px;
+                    border: none;
+                    color: $white;
+                    background: $form;
+                    text-transform: uppercase;
+
+                    :hover {
+                        background: $formName;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+
+
+/*# sourceMappingURL=main.scss.map */

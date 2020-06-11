@@ -1,0 +1,73 @@
+/* 
+header {
+    background: #1C5CBC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background: #134396;
+    display: flex;
+    flex-direction: row;
+}
+
+#perfil {
+    background: #FFF7DB;
+    height: 610px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto {
+    height: 414px;
+    width: 414px;
+    background: #d4d4d4;
+    border-radius: 100%;
+    border-width: 4px;
+    border-color: #844F05;
+}
+
+.sumario {
+    background: #363636;
+    padding: 10px;
+}
+
+.items-list {
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.items {
+    padding: 10px 10px;
+}
+
+
+#resumo {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contato {
+    display: inline-block;
+}
+
+footer {
+    height: 470px;
+    background: #1C5CBC;
+} */
+
+/*# sourceMappingURL=estilo.css.map */
